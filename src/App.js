@@ -7,8 +7,6 @@ import FriendList from './components/FriendList/FriendList'
 import friends from './components/FriendList/friends.json';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory'
 import transactions from './components/TransactionHistory/transactions.json';
-console.log("🚀 ~ file: App.js ~ line 10 ~ transactions", transactions);
-
 
 function App() {
   return (

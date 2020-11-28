@@ -1,0 +1,45 @@
+/* Оформление таблицы */
+.transactionHistory {
+  margin: 40px;
+  border-collapse: collapse;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.3);
+}
+
+.transactionHistory thead {
+  background-color: rgb(18, 201, 233);
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.transactionHistory thead th {
+  padding: 10px 100px;
+}
+
+.transactionHistory thead th:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+.tBody th,
+.tBody td {
+  padding: 10px 100px;
+}
+
+.transactionHistory tr:nth-child(even) {
+  background-color: lightgrey;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tBody tr:nth-child(even) td:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+.tBody tr:nth-child(odd) td:not(:last-child) {
+  border-right: 1px solid lightgrey;
+}
+
+.tBody > tr:hover {
+  background-color: lightskyblue;
+  color: white;
+}
